@@ -4,24 +4,24 @@ method = 'rock', 'paper', 'scissors'
 answer = input("Rock, paper, scissors: ")
 botans = random.choice(method)
 
-if answer = 'rock':
-    if botans = 'scissors':
+if answer == 'rock':
+    if botans == 'scissors':
         print("you win")
-    if botans = 'paper':
+    if botans == 'paper':
         print("you lose")
-    if botans = 'rock':
+    if botans == 'rock':
         print("tied")
-if answer = 'paper':
-    if botans = 'rock':
+if answer == 'paper':
+    if botans == 'rock':
         print("you win")
-    if botans = 'scissors':
+    if botans == 'scissors':
         print("you lose")
-    if botans = 'paper':
+    if botans == 'paper':
         print("tied")
-if answer = 'scissors':
-    if botans = 'paper':
+if answer == 'scissors':
+    if botans == 'paper':
         print("you win")
-    if botans = 'rock':
+    if botans == 'rock':
         print("you lose")
-    if botans = 'scissors':
+    if botans == 'scissors':
         print("tied")
